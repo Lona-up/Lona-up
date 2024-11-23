@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>侍ジャパン検索</title>
+  <style>
+    .container {
+      width: 90%;
+      margin: auto;
+      font-family: Arial, sans-serif;
+    }
+    .result-item {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+　<header>
+  <div class="header-container">
+    <div class="logo">
+      <a>侍ジャパン</a>
+    </div>
+  </div>
+</header>
+  <div class="container">
+    <h1>企画検索</h1>
+    <input type="text" id="searchInput" placeholder="キーワードで検索">
+    <button onclick="search()">検索</button>
+    <!-- <button id="search-button">検索</button> -->
+    <div>
+      <label><input type="checkbox" class="position-filter" value="投手">投手</label>
+      <label><input type="checkbox" class="position-filter" value="捕手">捕手</label>
+      <label><input type="checkbox" class="position-filter" value="内野手">内野手</label>
+      <label><input type="checkbox" class="position-filter" value="外野手">外野手</label>
+  </div>
+    <div id="results-container"></div>
+    
+    <div id="results"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
