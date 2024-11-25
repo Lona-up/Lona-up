@@ -79,7 +79,7 @@ function displayResults(data) {
   }
 
   if (data.length === 0) {
-    // resultsContainer.innerHTML = "<p>該当するデータがありません。</p>";
+    resultsContainer.innerHTML = "<p></p>";
     resultCountElement.textContent = "該当件数: 0件";
     return;
   }
