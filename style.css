@@ -29,3 +29,10 @@ header {
   display: block;
   margin: 0 auto 10px;
 }
+#result-count {
+  margin: 10px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
+
